@@ -30,7 +30,7 @@ CodeWithCal-W's TechBlog is a responsive, multi-page blog website built with HTM
 
 ## Deployment
 The website is deployed on Netlify and can be accessed at:  
-[TechBlog Live Demo](https://techblog-example.netlify.app)
+[CodeWithCal-W's TechBlog Live Demo](https://codewithcal-w-techblog.netlify.app/)
 
 ## Installation
 To run locally:
