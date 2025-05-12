@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWithCal-W's TechBlog - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CodeWithCal-W's TechBlog</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="featured-post">
+            <article>
+                <img src="Featured image.jpg" alt="Featured Post" class="featured-image">
+                <div class="post-content">
+                    <h2>The Future of Web Development</h2>
+                    <p class="post-meta">Posted on <time datetime="2025-05-05">May 05, 2025</time> by <span class="author">Michael O.</span></p>
+                    <p>Exploring the latest trends and technologies shaping the future of web development...</p>
+                    <a href="blog/post1.html" class="read-more">Read More</a>
+                </div>
+            </article>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Recent Posts</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <img src="Recent post 1.jpeg" alt="CSS Grid">
+                    <h3>Mastering CSS Grid</h3>
+                    <p class="post-meta">Posted on <time datetime="2025-05-10">May 10, 2025</time></p>
+                    <p>Learn how to create complex layouts with CSS Grid in this comprehensive guide...</p>
+                    <a href="blog/post2.html" class="read-more">Read More</a>
+                </article>
+
+                <article class="post-card">
+                    <img src="Recent post 2.jpg" alt="JavaScript">
+                    <h3>JavaScript ES2025 Features</h3>
+                    <p class="post-meta">Posted on <time datetime="2025-05-08">May 08, 2025</time></p>
+                    <p>Discover the newest features coming to JavaScript in the latest ECMAScript update...</p>
+                    <a href="blog/post3.html" class="read-more">Read More</a>
+                </article>
+
+                <article class="post-card">
+                    <img src="Recent post 3.jpeg" alt="Responsive Design">
+                    <h3>Responsive Design Best Practices</h3>
+                    <p class="post-meta">Posted on <time datetime="2025-04-28">April 28, 2025</time></p>
+                    <p>Essential techniques for creating websites that work perfectly on any device...</p>
+                    <a href="blog/post4.html" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <p id="newsletter-feedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CodeWithCal-W's TechBlog. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Twitter">X</a>
+                <a href="#" aria-label="Instagram">IG</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
